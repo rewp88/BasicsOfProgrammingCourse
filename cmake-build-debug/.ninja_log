@@ -16,3 +16,14 @@
 4	111	7337846339206872	libs/algorithms/CMakeFiles/algorithms.dir/algorithm.c.obj	5c9fdf51e5c32b88
 2	146	7337846339567936	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
 111	152	7337846339627940	libs/algorithms/libalgorithms.a	37e67a5de898a7bc
+2	52	7337858392237069	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
+3	61	7337858392328062	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	c156a64ff964eb01
+61	92	7337858392638051	libs/data_structures/libdata_structures.a	5fd3caadd8785b7c
+2	46	7337858853320679	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
+46	93	7337858853768969	untitled1.exe	e95aec205f4adf11
+2	50	7337861128318837	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
+51	96	7337861128759488	untitled1.exe	e95aec205f4adf11
+2	46	7337862107608860	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
+47	94	7337862108062563	untitled1.exe	e95aec205f4adf11
+2	58	7337866464943757	CMakeFiles/untitled1.dir/main.c.obj	e1eac5dba56abe2
+58	105	7337866465393829	untitled1.exe	e95aec205f4adf11
