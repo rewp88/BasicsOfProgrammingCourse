@@ -30,7 +30,7 @@ void reserve(vector *v, size_t newCapacity) {
         v->size = newCapacity;
     } else if (v->capacity < newCapacity) {
         v->data = realloc(v->data, sizeof(int) *
-            newCapacity);
+                                   newCapacity);
     }
 
     if (v->data == NULL) {
@@ -53,4 +53,36 @@ void deleteVector(vector *v) {
     free(v->data);
     v->size = 0;
     v->capacity = 0;
+}
+
+bool isEmpty(vector *v) {
+    return v->size == 0;
+}
+
+bool isFull(vector *v) {
+    return v->size == v->capacity;
+}
+
+int getVectorValue(vector *v, size_t i) {
+    return v->data[i];
+}
+
+void pushBack(vector *v, int x) {
+    if (v->size < v->capacity) {
+        v->data[v->capacity] = x;
+        v->size++;
+    } else {
+        size_t size = v->size == 0 ? 1 : 2 * v->size;
+        reserve(v, size);
+        v->data[v->size] = x;
+        v->size++;
+    }
+}
+
+void popBack(vector *v) {
+    if (v->size == 0) {
+        fprintf(stderr, " Error ");
+        exit(1);
+    }
+    v->size--;
 }
