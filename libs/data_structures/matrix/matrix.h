@@ -53,6 +53,16 @@ bool isEMatrix(matrix m);
 bool isSymmetricMatrix(matrix m);
 //транспонирует квадратную матрицу m
 void transposeSquareMatrix(matrix m);
-
+//возвращает позицию минимального элемента матрицы m
+position getMinValuePos(matrix m);
+// возвращает позицию максимального элемента матрицы m
+position getMaxValuePos(matrix m);
+/* возвращает матрицу, размера nRows на nCols, построенного из элементов
+ * массива a, размещенную в динамической памяти */
+matrix createMatrixFromArray(const int *a, size_t nRows, size_t nCols);
+/* возвращает указатель на нулевую матрицу массива из nMatrices
+ * матриц,размещенных в динамической памяти, построенных из элементов массива a */
+matrix *createArrayOfMatrixFromArray(const int *values, size_t nMatrices,
+                                     size_t nRows, size_t nCols);
 
 #endif //UNTITLED1_MATRIX_H
