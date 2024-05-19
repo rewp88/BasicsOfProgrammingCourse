@@ -23,4 +23,6 @@ bool isUnique(long long *a, int n);
 long long getSum(int *a, int n);
 // транспонирует матрицу, если среди сумм элементов строк нет равных
 void transposeIfMatrixHasNotEqualSumOfRows(matrix *m);
+// возвращает true, если матрицы m1 и m2 являются взаимно обратными, иначе false
+bool isMutuallyInverseMatrices(matrix m1, matrix m2);
 #endif

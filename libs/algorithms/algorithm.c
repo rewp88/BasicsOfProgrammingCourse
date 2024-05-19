@@ -78,3 +78,9 @@ void transposeIfMatrixHasNotEqualSumOfRows(matrix *m) {
         transposeSquareMatrix(*m);
 }
 
+bool isMutuallyInverseMatrices(matrix m1, matrix m2) {
+    matrix multiplication = mulMatrices(m1, m2);
+    if (isEMatrix(multiplication))
+        return true;
+    return false;
+}
