@@ -186,3 +186,32 @@ void test_getSquareOfMatrixIfSymmetric() {
     test_getSquareOfMatrixIfSymmetric_2_not_symmetric_matrix();
     test_getSquareOfMatrixIfSymmetric_3_e_matrix();
 }
+
+void test_transposeIfMatrixHasNotEqualSumOfRows_1_standard_value() {
+    matrix m = createMatrixFromArray((int[]) {1, 2, 3,
+                                              4, 5, 6,
+                                              7, 8, 9}, 3, 3);
+    matrix check = createMatrixFromArray((int[]) {1, 4, 7,
+                                                  2, 5, 8,
+                                                  3, 6, 9}, 3, 3);
+    transposeIfMatrixHasNotEqualSumOfRows(&m);
+    assert(areTwoMatricesEqual(m, check));
+    freeMemMatrix(m);
+    freeMemMatrix(check);
+}
+void test_transposeIfMatrixHasNotEqualSumOfRows_2_not_different_sum() {
+    matrix m = createMatrixFromArray((int[]) {1, 1, 1,
+                                              4, 5, 6,
+                                              0, 3, 0}, 3, 3);
+    matrix check = createMatrixFromArray((int[]) {1, 1, 1,
+                                                  4, 5, 6,
+                                                  0, 3, 0}, 3, 3);
+    transposeIfMatrixHasNotEqualSumOfRows(&m);
+    assert(areTwoMatricesEqual(m, check));
+    freeMemMatrix(m);
+    freeMemMatrix(check);
+}
+void test_transposeIfMatrixHasNotEqualSumOfRows() {
+    test_transposeIfMatrixHasNotEqualSumOfRows_1_standard_value();
+    test_transposeIfMatrixHasNotEqualSumOfRows_2_not_different_sum();
+}
