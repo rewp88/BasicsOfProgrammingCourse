@@ -8,6 +8,7 @@ add_executable(untitled1 main.c
         libs/algorithms/array/array.h
         libs/algorithms/algorithm.h
         libs/algorithms/algorithm.c
+
 )
 
 add_subdirectory(libs)

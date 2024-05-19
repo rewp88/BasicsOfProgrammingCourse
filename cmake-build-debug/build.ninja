@@ -90,7 +90,7 @@ build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.d
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -101,7 +101,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -118,7 +118,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build libs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -129,7 +129,7 @@ build libs/edit_cache: phony libs/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build libs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -186,6 +186,12 @@ build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.o
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
 
+build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix_task.c.obj: C_COMPILER__data_structures_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/matrix/test_matrix_task.c || cmake_object_order_depends_target_data_structures
+  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\matrix\test_matrix_task.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
+  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target data_structures
@@ -194,7 +200,7 @@ build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.o
 #############################################
 # Link the static library libs\data_structures\libdata_structures.a
 
-build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj || libs/algorithms/libalgorithms.a
+build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix_task.c.obj || libs/algorithms/libalgorithms.a
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   POST_BUILD = cd .
@@ -207,7 +213,7 @@ build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_s
 # Utility command for edit_cache
 
 build libs/data_structures/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\data_structures && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\data_structures && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -218,7 +224,7 @@ build libs/data_structures/edit_cache: phony libs/data_structures/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build libs/data_structures/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\data_structures && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\data_structures && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -272,7 +278,7 @@ build libs/algorithms/libalgorithms.a: C_STATIC_LIBRARY_LINKER__algorithms_Debug
 # Utility command for edit_cache
 
 build libs/algorithms/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\algorithms && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\algorithms && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -283,7 +289,7 @@ build libs/algorithms/edit_cache: phony libs/algorithms/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build libs/algorithms/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\algorithms && "D:\System32\Clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug\libs\algorithms && "D:\System32\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\MSI.HOME-PC\CLionProjects\untitled1 -BD:\Users\MSI.HOME-PC\CLionProjects\untitled1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -341,14 +347,14 @@ build libs/data_structures/all: phony libs/data_structures/libdata_structures.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/System32/Clion/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/System32/Clion/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/CMakeLists.txt D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/CMakeLists.txt: phony
 
 
 #############################################

@@ -9,6 +9,7 @@ add_library(data_structures
         matrix/matrix.c
         matrix/matrix.h
         matrix/test_matrix.c
+        matrix/test_matrix_task.c
 )
 
 target_link_libraries(data_structures algorithms)
