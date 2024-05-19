@@ -25,4 +25,8 @@ long long getSum(int *a, int n);
 void transposeIfMatrixHasNotEqualSumOfRows(matrix *m);
 // возвращает true, если матрицы m1 и m2 являются взаимно обратными, иначе false
 bool isMutuallyInverseMatrices(matrix m1, matrix m2);
+// возвращает максимальный элемент между a и b
+int max(int a, int b);
+// возвращает сумму максимальных элементов псевдодиагоналей матрицы m, если они положительны, иначе 0
+long long findSumOfMaxesOfPseudoDiagonal(matrix m);
 #endif
