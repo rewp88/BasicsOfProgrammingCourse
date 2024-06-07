@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled1
+# Project: untitled
 # Configurations: Debug
 # =============================================================================
 
@@ -41,49 +41,49 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled1
+# Object build statements for EXECUTABLE target untitled
 
 
 #############################################
-# Order-only phony target for untitled1
+# Order-only phony target for untitled
 
-build cmake_object_order_depends_target_untitled1: phony || cmake_object_order_depends_target_algorithms cmake_object_order_depends_target_data_structures
+build cmake_object_order_depends_target_untitled: phony || cmake_object_order_depends_target_algorithms cmake_object_order_depends_target_data_structures
 
-build CMakeFiles/untitled1.dir/main.c.obj: C_COMPILER__untitled1_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/main.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\main.c.obj.d
+build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/main.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled1.dir/libs/algorithms/array/array.c.obj: C_COMPILER__untitled1_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/array/array.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\libs\algorithms\array\array.c.obj.d
+build CMakeFiles/untitled.dir/libs/algorithms/array/array.c.obj: C_COMPILER__untitled_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/array/array.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\libs\algorithms\array\array.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\libs\algorithms\array
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\libs\algorithms\array
 
-build CMakeFiles/untitled1.dir/libs/algorithms/algorithm.c.obj: C_COMPILER__untitled1_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/algorithm.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\libs\algorithms\algorithm.c.obj.d
+build CMakeFiles/untitled.dir/libs/algorithms/algorithm.c.obj: C_COMPILER__untitled_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/algorithms/algorithm.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\libs\algorithms\algorithm.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\libs\algorithms
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\libs\algorithms
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled1
+# Link build statements for EXECUTABLE target untitled
 
 
 #############################################
-# Link the executable untitled1.exe
+# Link the executable untitled.exe
 
-build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.c.obj CMakeFiles/untitled1.dir/libs/algorithms/array/array.c.obj CMakeFiles/untitled1.dir/libs/algorithms/algorithm.c.obj | libs/data_structures/libdata_structures.a libs/algorithms/libalgorithms.a || libs/algorithms/libalgorithms.a libs/data_structures/libdata_structures.a
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/libs/algorithms/array/array.c.obj CMakeFiles/untitled.dir/libs/algorithms/algorithm.c.obj | libs/data_structures/libdata_structures.a libs/algorithms/libalgorithms.a || libs/algorithms/libalgorithms.a libs/data_structures/libdata_structures.a
   FLAGS = -g
   LINK_LIBRARIES = libs/data_structures/libdata_structures.a  libs/algorithms/libalgorithms.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled1.exe
-  TARGET_IMPLIB = libuntitled1.dll.a
-  TARGET_PDB = untitled1.exe.dbg
+  TARGET_FILE = untitled.exe
+  TARGET_IMPLIB = libuntitled.dll.a
+  TARGET_PDB = untitled.exe.dbg
 
 
 #############################################
@@ -174,23 +174,11 @@ build libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj: C
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\vector
 
-build libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: C_COMPILER__data_structures_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/matrix/matrix.c || cmake_object_order_depends_target_data_structures
-  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\matrix\matrix.c.obj.d
+build libs/data_structures/CMakeFiles/data_structures.dir/bitset/task.c.obj: C_COMPILER__data_structures_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/bitset/task.c || cmake_object_order_depends_target_data_structures
+  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\bitset\task.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
-  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
-
-build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj: C_COMPILER__data_structures_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/matrix/test_matrix.c || cmake_object_order_depends_target_data_structures
-  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\matrix\test_matrix.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
-  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
-
-build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix_task.c.obj: C_COMPILER__data_structures_unscanned_Debug D$:/Users/MSI.HOME-PC/CLionProjects/untitled1/libs/data_structures/matrix/test_matrix_task.c || cmake_object_order_depends_target_data_structures
-  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\matrix\test_matrix_task.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
-  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
+  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\bitset
 
 
 # =============================================================================
@@ -200,7 +188,7 @@ build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix_tas
 #############################################
 # Link the static library libs\data_structures\libdata_structures.a
 
-build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test_matrix_task.c.obj || libs/algorithms/libalgorithms.a
+build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/bitset/task.c.obj || libs/algorithms/libalgorithms.a
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   POST_BUILD = cd .
@@ -307,7 +295,7 @@ build libalgorithms.a: phony libs/algorithms/libalgorithms.a
 
 build libdata_structures.a: phony libs/data_structures/libdata_structures.a
 
-build untitled1: phony untitled1.exe
+build untitled: phony untitled.exe
 
 # =============================================================================
 # Folder targets.
@@ -317,7 +305,7 @@ build untitled1: phony untitled1.exe
 #############################################
 # Folder: D:/Users/MSI.HOME-PC/CLionProjects/untitled1/cmake-build-debug
 
-build all: phony untitled1.exe libs/all
+build all: phony untitled.exe libs/all
 
 # =============================================================================
 

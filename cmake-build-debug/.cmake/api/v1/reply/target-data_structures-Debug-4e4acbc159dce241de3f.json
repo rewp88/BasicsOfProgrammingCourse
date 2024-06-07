@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -61,9 +61,7 @@
 				2,
 				3,
 				5,
-				7,
-				9,
-				10
+				7
 			]
 		}
 	],
@@ -92,9 +90,7 @@
 				2,
 				3,
 				5,
-				7,
-				9,
-				10
+				7
 			]
 		},
 		{
@@ -103,8 +99,7 @@
 			[
 				1,
 				4,
-				6,
-				8
+				6
 			]
 		}
 	],
@@ -152,24 +147,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "libs/data_structures/matrix/matrix.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "libs/data_structures/matrix/matrix.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "libs/data_structures/matrix/test_matrix.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "libs/data_structures/matrix/test_matrix_task.c",
+			"path" : "libs/data_structures/bitset/task.c",
 			"sourceGroupIndex" : 0
 		}
 	],

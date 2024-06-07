@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled1
+CMAKE_PROJECT_NAME:STATIC=untitled
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/System32/Clion/CLion 2024.1.1/bin/mingw/bin/ranlib.exe
@@ -221,6 +221,15 @@ untitled1_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 untitled1_SOURCE_DIR:STATIC=D:/Users/MSI.HOME-PC/CLionProjects/untitled1
+
+//Value Computed by CMake
+untitled_BINARY_DIR:STATIC=D:/Users/MSI.HOME-PC/CLionProjects/untitled1/cmake-build-debug
+
+//Value Computed by CMake
+untitled_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+untitled_SOURCE_DIR:STATIC=D:/Users/MSI.HOME-PC/CLionProjects/untitled1
 
 
 ########################

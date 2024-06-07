@@ -6,8 +6,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#ifndef UNTITLED1_VECTOR_H
-#define UNTITLED1_VECTOR_H
+#ifndef UNTITLED_VECTOR_H
+#define UNTITLED_VECTOR_H
 
 typedef struct vector {
     int *data; // указатель на элементы вектора

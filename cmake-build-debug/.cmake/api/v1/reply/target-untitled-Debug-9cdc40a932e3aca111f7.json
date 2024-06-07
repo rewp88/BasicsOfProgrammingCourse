@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled1.exe"
+			"path" : "untitled.exe"
 		},
 		{
-			"path" : "untitled1.pdb"
+			"path" : "untitled.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -82,7 +82,7 @@
 			"id" : "algorithms::@4f84be16bc75261b2db5"
 		}
 	],
-	"id" : "untitled1::@6890427a1f51a3e7e1df",
+	"id" : "untitled::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -112,8 +112,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "untitled1",
-	"nameOnDisk" : "untitled1.exe",
+	"name" : "untitled",
+	"nameOnDisk" : "untitled.exe",
 	"paths" : 
 	{
 		"build" : ".",

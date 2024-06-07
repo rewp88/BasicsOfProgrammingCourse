@@ -6,10 +6,8 @@ add_library(data_structures
         ordered_array_set/ordered_array_set.h
         vector/vector.c
         vector/vector.h
-        matrix/matrix.c
-        matrix/matrix.h
-        matrix/test_matrix.c
-        matrix/test_matrix_task.c
+        bitset/task.c
+
 )
 
 target_link_libraries(data_structures algorithms)

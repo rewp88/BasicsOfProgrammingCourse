@@ -1,5 +1,5 @@
-#ifndef UNTITLED1_ORDERED_ARRAY_SET_H
-#define UNTITLED1_ORDERED_ARRAY_SET_H
+#ifndef UNTITLED_ORDERED_ARRAY_SET_H
+#define UNTITLED_ORDERED_ARRAY_SET_H
 
 #include <stdint.h>
 #include <assert.h>
