@@ -2,11 +2,11 @@
 #include "D:\Users\MSI.HOME-PC\CLionProjects\untitled1\libs\data_structures\bitset\bitset.h"
 
 int countUniqueDivisibleByK(int arr[], size_t size, int k) {
-    bitset uniqueSet = bitset_create(31); // Создаем битсет для хранения уникальных элементов (0-31)
+    bitset uniqueSet = bitset_create(31);
 
     for (size_t i = 0; i < size; i++) {
         if (arr[i] % k == 0) {
-            bitset_insert(&uniqueSet, arr[i] / k); // Добавляем элемент, деленный на k, в битсет
+            bitset_insert(&uniqueSet, arr[i] / k);
         }
     }
 
